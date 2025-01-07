@@ -4,7 +4,8 @@ Ce projet vise à classifier différents types de coups de tennis à partir de d
 
 ## Description du Jeu de Données
 
-Le jeu de données contient des mesures d'accélération et de gyroscope pour différents types de coups de tennis. Chaque coup est représenté par 100 lignes de données, comprenant :
+Le jeu de données contient des mesures d'accélération et de gyroscope pour différents types de coups de tennis. Chaque coup est représenté par 100 lignes de données (format séquentiel), comprenant :
+
 
 - **6 variables prédictives** :
   - `AccX`, `AccY`, `AccZ` : Composantes d'accélération.
