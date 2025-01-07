@@ -16,10 +16,6 @@ Le jeu de données contient des mesures d'accélération et de gyroscope pour di
   - `3` : Coup droit de volée
   - `4` : Revers de volée
 
-Après prétraitement, les données sont transformées comme suit :
-- **X** : Tableau 3D de dimensions `(2013, 100, 6)` représentant 2013 coups, chacun décrit par 100 frames de 6 variables.
-- **y** : Vecteur unidimensionnel de taille `(2013,)` contenant les labels associés.
-
 ## Objectif
 
 L'objectif est de construire différents modèles de Deep Learning capablent de labelliser automatiquement le type de coup réalisé à partir des variables d'accélération et de gyroscope. Nous comparons ensuite les résultats des différents modèles. 
